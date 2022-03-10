@@ -1,10 +1,10 @@
 import socket
 import os
 
-os.chdir('C://Users//kamil//Desktop')
+os.chdir('C://Users//vdi-belfer//Desktop')
 os.system(f'cmd /c "ipconfig /all > ip.txt"')    #zapisanie w pliku ip.txt informacji
 
-with open('C://Users//kamil//Desktop//ip.txt', 'r', encoding='ANSI') as ip_file:
+with open('C://Users//vdi-belfer//Desktop//ip.txt', 'r', encoding='ANSI') as ip_file:
     content = ip_file.readlines()
 print(content)
 
