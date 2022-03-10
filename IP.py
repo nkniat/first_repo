@@ -23,3 +23,4 @@ hostname = socket.gethostname()               #zapis nazwy hosta
 local_ip = socket.gethostbyname(hostname)     #zapis adresu IP
 print(f'Hostname otrzymany dzięki bibliotece "socket" to: {hostname}')
 print(f'Adres IP otrzymany dzięki bibliotece "socket" to: {local_ip}')
+#koniec
